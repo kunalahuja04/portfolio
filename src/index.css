@@ -41,6 +41,7 @@ body {
     background: var(--background-gradient);
     background-attachment: fixed;
     color: var(--clr-text);
+    overflow-x: hidden;
 }
 
 .light {

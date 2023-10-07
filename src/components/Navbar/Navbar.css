@@ -287,7 +287,7 @@ input[type="checkbox"]:checked {
 .up,
 .down { 
     box-shadow: 0px 0px 2px black;
-    padding: 8px;
+    padding: 0px;
 }
 
 @media (max-width: 35em) {

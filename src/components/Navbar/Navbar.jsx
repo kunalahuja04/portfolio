@@ -42,6 +42,7 @@ function Navbar({ onThemeChange, classNames }) {
         primaryNavigation.setAttribute("data-visible", true);
         item.classList.add("open");
       }
+      // console.log(item.classList);
     };
   }, [themeValue]);
 
@@ -112,7 +113,7 @@ function Navbar({ onThemeChange, classNames }) {
               </fieldset>
             </form>
           </ul>
-          <div id="menu">
+          <div id="menu" className="menu">
             <span></span>
             <span></span>
             <span></span>

@@ -13,16 +13,16 @@ function App() {
   const [themeMode, setThemeMode] = useState("light");
 
   return (
-    <div>
-        <Navbar onThemeChange={setThemeMode} classNames={themeMode} />
-        <Hero themeMode={themeMode} />
-        <About themeMode={themeMode} />
-        <Skills themeMode={themeMode} />
-        <Experience />
-        <Education />
-        <Projects />
+    <>
+      <Navbar onThemeChange={setThemeMode} classNames={themeMode} />
+      <Hero themeMode={themeMode} />
+      <About themeMode={themeMode} />
+      <Skills themeMode={themeMode} />
+      <Experience />
+      <Education />
+      <Projects />
       <Footer />
-    </div>
+    </>
   );
 }
 

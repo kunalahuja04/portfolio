@@ -25,9 +25,9 @@ function Hero({ themeMode, className }) {
           </div>
         </div>
 
-        <div className="text-center flex flex-col info h-[52vh] justify-evenly">
+        <div className="text-center mt-8 flex flex-col info h-[52vh] justify-evenly">
           <p className="text-5xl font-bold name">Kunal Ahuja</p>
-          <p className="text-3xl font-semibold profile">
+          <p className="text-3xl font-semibold profile px-2">
             Software Development Engineer
           </p>
           <div>

@@ -20,7 +20,7 @@
 
 .hero-container .avatar-bg {
     background-size: contain;
-    max-width: 25rem;
+    /* max-width: 25rem; */
     margin-inline: auto;
     background-repeat: no-repeat;
     aspect-ratio: 1;
