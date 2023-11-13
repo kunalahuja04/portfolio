@@ -34,15 +34,15 @@ function Navbar({ onThemeChange, classNames }) {
     };
     const primaryNavigation = document.querySelector(".primary-navigation");
     const item = document.getElementById("menu");
-    document.getElementById("menu").onclick = () => {
+    item.onclick = () => {
       if (item.classList.contains("open")) {
-        item.classList.remove("open");
+        item.classList.remove(...item.classList);
+        item.removeAttribute("class");
         primaryNavigation.setAttribute("data-visible", false);
       } else {
-        primaryNavigation.setAttribute("data-visible", true);
         item.classList.add("open");
+        primaryNavigation.setAttribute("data-visible", true);
       }
-      // console.log(item.classList);
     };
   }, [themeValue]);
 
@@ -113,7 +113,7 @@ function Navbar({ onThemeChange, classNames }) {
               </fieldset>
             </form>
           </ul>
-          <div id="menu" className="menu">
+          <div id="menu">
             <span></span>
             <span></span>
             <span></span>
