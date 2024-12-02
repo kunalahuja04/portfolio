@@ -7,18 +7,18 @@ function Hero({ themeMode, className }) {
         <div
           className={
             themeMode === "light"
-              ? "avatar-bg bg-[url('../../src/assets/images/dark-me.png')]"
-              : "avatar-bg bg-[url('../../src/assets/images/light-me.png')]"
+              ? "avatar-bg bg-[url('/portfolio/assets/images/dark-me.png')]"
+              : "avatar-bg bg-[url('/portfolio/assets/images/light-me.png')]"
           }
         >
           <div className="spotlights mt-8">
             <img
-              src="../../src/assets/images/right-spotlights.PNG"
+              src="/portfolio/assets/images/right-spotlights.PNG"
               alt="right spot"
               className="inline absolute spotlight-r left-[8.5rem] h-[18rem]"
               />
             <img
-              src="../../src/assets/images/left-spotlights.PNG"
+              src="/portfolio/assets/images/left-spotlights.PNG"
               alt="left spot"
               className="inline absolute spotlight-l left-[-1.5rem] h-[18rem]"
             />
@@ -47,7 +47,7 @@ function Hero({ themeMode, className }) {
             >
               <img
                 className={themeMode == "light" ? "invert-0" : "invert"}
-                src="../../src/assets/images/resume.png"
+                src="/portfolio/assets/images/resume.png"
                 width="120"
                 alt="Drawing Icon Resume"
               />
