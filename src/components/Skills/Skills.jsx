@@ -17,15 +17,15 @@ function Skills({ themeMode }) {
             <Skill
               themeMode={themeMode}
               classNames={"!p-2"}
-              imageUrl="../src/assets/svgs/skills/typescript.svg"
+              imageUrl="/portfolio/assets/svgs/skills/typescript.svg"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/js.svg"
+              imageUrl="/portfolio/assets/svgs/skills/js.svg"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/dart.svg"
+              imageUrl="/portfolio/assets/svgs/skills/dart.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">Frameworks</p>
@@ -33,14 +33,14 @@ function Skills({ themeMode }) {
             <Skill
               themeMode={themeMode}
               classNames={"py-4 px-3"}
-              imageUrl="../src/assets/svgs/skills/angular-logo.png"
+              imageUrl="/portfolio/assets/svgs/skills/angular-logo.png"
               width="120"
             />
             <Skill
               themeMode={themeMode}
               classNames={"py-1 px-3"}
               width="120"
-              imageUrl="../src/assets/svgs/skills/flutter.svg"
+              imageUrl="/portfolio/assets/svgs/skills/flutter.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">
@@ -49,33 +49,33 @@ function Skills({ themeMode }) {
           <div className="flex gap-4 flex-wrap">
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/reactjs.svg"
+              imageUrl="/portfolio/assets/svgs/skills/reactjs.svg"
               width="120"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/html.svg"
+              imageUrl="/portfolio/assets/svgs/skills/html.svg"
               width="60"
             />
             <Skill
               themeMode={themeMode}
               width="60"
-              imageUrl="../src/assets/svgs/skills/css.svg"
+              imageUrl="/portfolio/assets/svgs/skills/css.svg"
             />
             <Skill
               themeMode={themeMode}
               width="60"
-              imageUrl="../src/assets/svgs/skills/jquery.svg"
+              imageUrl="/portfolio/assets/svgs/skills/jquery.svg"
             />
             <Skill
               themeMode={themeMode}
               width="60"
-              imageUrl="../src/assets/svgs/skills/bootstrap.svg"
+              imageUrl="/portfolio/assets/svgs/skills/bootstrap.svg"
             />
             <Skill
               themeMode={themeMode}
               width="60"
-              imageUrl="../src/assets/svgs/skills/sass.svg"
+              imageUrl="/portfolio/assets/svgs/skills/sass.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">Backend</p>
@@ -83,13 +83,13 @@ function Skills({ themeMode }) {
             <Skill
               themeMode={themeMode}
               classNames={`px-2 py-2 scale-125`}
-              imageUrl="../src/assets/svgs/skills/node.svg"
+              imageUrl="/portfolio/assets/svgs/skills/node.svg"
             />
             <Skill
               themeMode={themeMode}
               classNames={"py-2 px-2"}
               width="120"
-              imageUrl="../src/assets/svgs/skills/express.svg"
+              imageUrl="/portfolio/assets/svgs/skills/express.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">Database</p>
@@ -97,16 +97,16 @@ function Skills({ themeMode }) {
             <Skill
               themeMode={themeMode}
               width="120"
-              imageUrl="../src/assets/svgs/skills/mongo.svg"
+              imageUrl="/portfolio/assets/svgs/skills/mongo.svg"
             />
             <Skill
               themeMode={themeMode}
               classNames="p-2"
-              imageUrl="../src/assets/svgs/skills/mysql.svg"
+              imageUrl="/portfolio/assets/svgs/skills/mysql.svg"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/firebase.svg"
+              imageUrl="/portfolio/assets/svgs/skills/firebase.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">Cloud</p>
@@ -114,67 +114,67 @@ function Skills({ themeMode }) {
             <Skill
               themeMode={themeMode}
               classNames="p-2"
-              imageUrl="../src/assets/svgs/skills/aws.svg"
+              imageUrl="/portfolio/assets/svgs/skills/aws.svg"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/gcloud.svg"
+              imageUrl="/portfolio/assets/svgs/skills/gcloud.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">vcs</p>
           <div className="flex gap-4">
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/git.svg"
+              imageUrl="/portfolio/assets/svgs/skills/git.svg"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/social/github.svg"
+              imageUrl="/portfolio/assets/svgs/social/github.svg"
             />
             <Skill
               themeMode={themeMode}
               classNames={"py-6 px-2"}
               width="120"
-              imageUrl="../src/assets/svgs/skills/bitbucket-official.svg"
+              imageUrl="/portfolio/assets/svgs/skills/bitbucket-official.svg"
             />
           </div>
           <p className="font-bold text-xl mt-4 uppercase mb-4">others</p>
           <div className="flex gap-4 flex-wrap">
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/linux.svg"
+              imageUrl="/portfolio/assets/svgs/skills/linux.svg"
               classNames={"p-2"}
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/postman.svg"
+              imageUrl="/portfolio/assets/svgs/skills/postman.svg"
               classNames="p-2"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/figma.svg"
+              imageUrl="/portfolio/assets/svgs/skills/figma.svg"
               classNames={"p-2"}
               width="45"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/android_studio.svg"
+              imageUrl="/portfolio/assets/svgs/skills/android_studio.svg"
               width="120"
               classNames="p-2"
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/vscode.svg"
+              imageUrl="/portfolio/assets/svgs/skills/vscode.svg"
               classNames={"p-2"}
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/intellij.svg"
+              imageUrl="/portfolio/assets/svgs/skills/intellij.svg"
               classNames={"p-2"}
             />
             <Skill
               themeMode={themeMode}
-              imageUrl="../src/assets/svgs/skills/tradingview-logo.svg"
+              imageUrl="/portfolio/assets/svgs/skills/tradingview-logo.svg"
               width="100"
               classNames={"scale-120 px-4 py-0"}
             />

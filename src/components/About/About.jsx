@@ -61,7 +61,7 @@ function About({ refs, themeMode }) {
                 href="https://www.linkedin.com/in/kunal-ahuja-855507158/"
               >
                 <img
-                  src="../src/assets/svgs/social/linkedin.svg"
+                  src="/portfolio/assets/svgs/social/linkedin.svg"
                   height="45"
                   width="45"
                   alt="LinkedIN"
@@ -75,7 +75,7 @@ function About({ refs, themeMode }) {
                 href="http://www.github.com/kunalahuja04"
               >
                 <img
-                  src="../src/assets/svgs/social/github.svg"
+                  src="/portfolio/assets/svgs/social/github.svg"
                   height="40"
                   width="40"
                   alt="GitHub"
@@ -87,7 +87,7 @@ function About({ refs, themeMode }) {
                 href="http://www.twitter.com/kunal_ahuja_"
               >
                 <img
-                  src="../src/assets/svgs/social/twitter.svg"
+                  src="/portfolio/assets/svgs/social/twitter.svg"
                   height="40"
                   width="40"
                   alt="Twitter"
@@ -99,7 +99,7 @@ function About({ refs, themeMode }) {
                 href="https://www.facebook.com/nbkunal/"
               >
                 <img
-                  src="../src/assets/svgs/social/facebook.svg"
+                  src="/portfolio/assets/svgs/social/facebook.svg"
                   height="40"
                   width="40"
                   alt="Twitter"
@@ -111,7 +111,7 @@ function About({ refs, themeMode }) {
                 href="http://www.instagram.com/koonall"
               >
                 <img
-                  src="../src/assets/svgs/social/instagram.svg"
+                  src="/portfolio/assets/svgs/social/instagram.svg"
                   height="40"
                   width="40"
                   alt="Twitter"

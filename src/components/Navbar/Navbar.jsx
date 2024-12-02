@@ -121,18 +121,18 @@ function Navbar({ onThemeChange, classNames }) {
           </div>
         </nav>
 
-        {/* <button
+        <button
           type="button"
           aria-controls="primary-navigation"
           aria-expanded="false"
           className={
             theme !== "light"
-              ? "bg-[url('../../src/assets/svgs/hamburger-dark.svg')] toggle-btn"
-              : "bg-[url('../../src/assets/svgs/hamburger-light.svg')] toggle-btn"
+              ? "bg-[url('/portfolio/assets/svgs/hamburger-dark.svg')] toggle-btn"
+              : "bg-[url('/portfolio/assets/svgs/hamburger-light.svg')] toggle-btn"
           }
         >
           <span className="sr-only">Menu</span>
-        </button> */}
+        </button>
       </header>
     </>
   );
